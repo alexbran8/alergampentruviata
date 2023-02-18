@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alergampentruviata/static/css/main.c4b0a374.css",
-    "main.js": "/alergampentruviata/static/js/main.54c11bdf.js",
+    "main.css": "/alergampentruviata/static/css/main.028ae1de.css",
+    "main.js": "/alergampentruviata/static/js/main.24a22570.js",
     "static/js/787.faa64d7a.chunk.js": "/alergampentruviata/static/js/787.faa64d7a.chunk.js",
     "index.html": "/alergampentruviata/index.html",
-    "main.c4b0a374.css.map": "/alergampentruviata/static/css/main.c4b0a374.css.map",
-    "main.54c11bdf.js.map": "/alergampentruviata/static/js/main.54c11bdf.js.map",
+    "main.028ae1de.css.map": "/alergampentruviata/static/css/main.028ae1de.css.map",
+    "main.24a22570.js.map": "/alergampentruviata/static/js/main.24a22570.js.map",
     "787.faa64d7a.chunk.js.map": "/alergampentruviata/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b0a374.css",
-    "static/js/main.54c11bdf.js"
+    "static/css/main.028ae1de.css",
+    "static/js/main.24a22570.js"
   ]
 }
