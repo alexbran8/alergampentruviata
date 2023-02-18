@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/alergampentruviata/static/css/main.b862c469.css",
-    "main.js": "/alergampentruviata/static/js/main.b93d2044.js",
+    "main.css": "/alergampentruviata/static/css/main.75f95733.css",
+    "main.js": "/alergampentruviata/static/js/main.6044d34a.js",
     "static/js/787.faa64d7a.chunk.js": "/alergampentruviata/static/js/787.faa64d7a.chunk.js",
     "static/media/instagram_logo_90x90.svg": "/alergampentruviata/static/media/instagram_logo_90x90.2c3d368fe79c8a3bfaf89f9bcf989973.svg",
     "static/media/facebook_logo_90x90.svg": "/alergampentruviata/static/media/facebook_logo_90x90.e32e375504507597c71d46bc6b7eb57b.svg",
     "index.html": "/alergampentruviata/index.html",
-    "main.b862c469.css.map": "/alergampentruviata/static/css/main.b862c469.css.map",
-    "main.b93d2044.js.map": "/alergampentruviata/static/js/main.b93d2044.js.map",
+    "main.75f95733.css.map": "/alergampentruviata/static/css/main.75f95733.css.map",
+    "main.6044d34a.js.map": "/alergampentruviata/static/js/main.6044d34a.js.map",
     "787.faa64d7a.chunk.js.map": "/alergampentruviata/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b862c469.css",
-    "static/js/main.b93d2044.js"
+    "static/css/main.75f95733.css",
+    "static/js/main.6044d34a.js"
   ]
 }
