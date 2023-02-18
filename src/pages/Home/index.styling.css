@@ -396,14 +396,52 @@ body {
 	border-radius: 80px;
 	animation: RockAnim calc( var(--anim-speed) * 3 ) linear 0s infinite;
 }
+
 .rock.rk1{
 	top:-3px;
 	width: 180px;
 }
+
 .rock.rk2{
 	top: -5px;
 	left: 900px;
 	width: 295px;
+	border-radius: 14px 110px 0px 0px;
+}
+
+.rock.rk3{
+    background-color: gray;
+	top: -12px;
+    height: 12px;
+	left: 1300px;
+	width: 20px;
+    z-index: -2;
+	border-radius: 14px 110px 0px 0px;
+}
+
+.rock.rk4{
+	top: -5px;
+	left: 1900px;
+	width: 145px;
+	border-radius: 14px 110px 0px 0px;
+}
+
+.rock.rk5{
+    background-color: blue;
+	top: -5px;
+    height: 5px;
+	left: 100px;
+	width: 100px;
+	border-radius: 14px 110px 0px 0px;
+}
+
+.grass{
+    background-color: green;
+	top: -5px;
+    height: 5px;
+	left: 1300px;
+	width: 100%;
+    z-index: -2;
 	border-radius: 14px 110px 0px 0px;
 }
 
