@@ -410,12 +410,9 @@ body {
 }
 
 .rock.rk3{
-    background-color: gray;
-	top: -12px;
-    height: 12px;
+	top: -5px;
 	left: 1300px;
-	width: 20px;
-    z-index: -2;
+	width: 295px;
 	border-radius: 14px 110px 0px 0px;
 }
 
@@ -423,15 +420,6 @@ body {
 	top: -5px;
 	left: 1900px;
 	width: 145px;
-	border-radius: 14px 110px 0px 0px;
-}
-
-.rock.rk5{
-    background-color: blue;
-	top: -5px;
-    height: 5px;
-	left: 100px;
-	width: 100px;
 	border-radius: 14px 110px 0px 0px;
 }
 
