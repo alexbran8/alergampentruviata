@@ -18,7 +18,7 @@ header{
 nav{
   position: fixed;
   width: 100%;
-  top:5%;
+  top:2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,10 +62,10 @@ nav{
 }
 .nav__item{
   text-transform: uppercase;
-  color: white;
+  color: #0B06EE;
   font-family: Roboto;
   font-weight: 900;
-  font-size: 30px
+  font-size: 1.2rem;
 
 }
 
