@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+:root {
+	--anim-speed:2770ms;
+}
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -16,7 +20,7 @@ body {
 
 .container{
 	--ground-color:#8a6a40;
-	--anim-speed:570ms;
+	
     --bottom-height:100px;
 	width: 100vw;
 	height: 320px;
