@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
-}
+
 a{
   text-decoration: none;
   color: inherit;
@@ -16,12 +10,11 @@ header{
   top: 0;
 }
 nav{
-  position: fixed;
-  width: 100%;
-  top:20%;
+  /* outline: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .nav__menu-bar{
   display: flex;
@@ -36,13 +29,14 @@ nav{
   border-radius: 2px;
 }
 .nav__menu-list{
+  /* outline: 1px solid black; */
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 60px;
-  width: 288px;
+  /* width: 288px; */
   row-gap: 24px;
-  right: -288px;
+  /* right: -288px; */
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
@@ -54,18 +48,20 @@ nav{
 .nav__link{
   font-size: 18px; 
   position: relative;
-  transition: all 0.2s;
+  transition: all 0.2s;  
 }
 
 .nav__link:hover{
  font-weight: bold;
 }
 .nav__item{
-  text-transform: uppercase;
-  color: #0B06EE;
-  font-family: Roboto;
-  font-weight: 900;
-  font-size: 1.2rem;
+  /* text-transform: uppercase; */
+  color: black;
+  font-family: 'Unica One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
 
 }
 

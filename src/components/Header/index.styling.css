@@ -1,4 +1,24 @@
+.header-container {
+    /* outline: 1px solid red; */
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: row;
+    position:sticky;
+    left:0px;
+    width: 100%;
+}
+
+.logo{
+        width: 100%;
+        height: auto;
+}
+
 .footer {
+    outline: 1px solid black;
     position:fixed;
     /* outline: auto; */
     width: 100%;
