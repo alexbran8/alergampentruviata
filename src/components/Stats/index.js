@@ -16,9 +16,9 @@ export const Stats = () => {
         {STATS_LIST.map((item, idx) => (
           <div key={idx}>
             <svg
-              width="100"
-              height="100"
-              viewBox="0 0 100 121"
+              width="75"
+              height="75"
+              viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >

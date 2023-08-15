@@ -1,9 +1,61 @@
 .header {
-	overflow: hidden;
-	color: #000;
-	text-align: center;
-	text-overflow: ellipsis;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
+  overflow: hidden;
+  color: #000;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
+.wrapper {
+  background: rgba(217, 217, 217, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  padding: 40 40 40 40;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pill {
+  border-radius: 360px;
+  border: 1px solid #000;
+  background: #7b7b7b;
+  width: 441px;
+  height: 98px;
+  flex-shrink: 0;
+  display: grid;
+  place-content: center;
+  color: #fffefe;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+.photo-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-basis: 50px;
+	padding: 100px 100px 100px 100px;
+}
+
+.photo {
+	/* flex: 1 1; */
+	width: auto;
+	border-radius: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.50);
+}
+
+.photo-container:first-of-type .photo:first-of-type {
+	flex: 2 2 22px;
+  }
+
