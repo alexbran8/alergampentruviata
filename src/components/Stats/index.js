@@ -17,7 +17,7 @@ export const Stats = () => {
           <div key={idx}>
             <svg
               width="100"
-              height="121"
+              height="100"
               viewBox="0 0 100 121"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
