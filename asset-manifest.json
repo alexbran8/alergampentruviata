@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c90469ba.css",
-    "main.js": "/static/js/main.cf0ccbe4.js",
+    "main.css": "/static/css/main.4d352a5e.css",
+    "main.js": "/static/js/main.e1c8bd80.js",
     "static/js/787.faa64d7a.chunk.js": "/static/js/787.faa64d7a.chunk.js",
-    "static/media/Logo512.svg": "/static/media/Logo512.eb1fb7d7803ebcd709e7a9252c7d124d.svg",
+    "static/media/Logo512.svg": "/static/media/Logo512.1266ff7865afd018aeaa34006176a105.svg",
     "static/media/buy_me_coffee_logo_333x148.svg": "/static/media/buy_me_coffee_logo_333x148.80f82c34d0e92ebb657760a179c42c12.svg",
     "static/media/instagram_logo_90x90.svg": "/static/media/instagram_logo_90x90.7786d1180a3c51eab29fb23a5882dee7.svg",
     "static/media/facebook_logo_90x90.svg": "/static/media/facebook_logo_90x90.84b27fdce3a68d260ba67d18982159ba.svg",
     "index.html": "/index.html",
-    "main.c90469ba.css.map": "/static/css/main.c90469ba.css.map",
-    "main.cf0ccbe4.js.map": "/static/js/main.cf0ccbe4.js.map",
+    "main.4d352a5e.css.map": "/static/css/main.4d352a5e.css.map",
+    "main.e1c8bd80.js.map": "/static/js/main.e1c8bd80.js.map",
     "787.faa64d7a.chunk.js.map": "/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c90469ba.css",
-    "static/js/main.cf0ccbe4.js"
+    "static/css/main.4d352a5e.css",
+    "static/js/main.e1c8bd80.js"
   ]
 }
