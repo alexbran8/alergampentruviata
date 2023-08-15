@@ -5,7 +5,7 @@ import { Team } from "./pages/Team";
 import { Projects } from "./pages/Projects";
 
 import { Layout } from "./layout";
-import {  BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {  HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
