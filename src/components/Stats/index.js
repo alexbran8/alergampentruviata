@@ -28,14 +28,14 @@ export const Stats = () => {
                 cy="50"
                 r="48.5"
                 stroke="black"
-                stroke-opacity="0.5"
-                stroke-width="3"
+                strokeOpacity="0.5"
+                strokeWidth="3"
               />
               <text
                 x="50"
                 y="60"
-                text-anchor="middle"
-                font-size="30"
+                textAnchor="middle"
+                fontSize="30"
                 fill="white"
               >
                 {item.value}

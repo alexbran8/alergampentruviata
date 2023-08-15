@@ -6,7 +6,7 @@ import Logo from "../../assets/Logo512.svg"
 export const Header = () => {
   return (
     <div className="header-container">
-      <div>
+      <div className="header-container">
         <img className="logo" src={Logo} alt="logo" />
       </div>
       <Navbar />
