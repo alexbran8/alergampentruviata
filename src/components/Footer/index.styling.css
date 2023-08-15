@@ -9,7 +9,7 @@
 }
 
 .text-white {
-    color: white;
+    color: black;
     font-family: monosapce;
 }
 
@@ -20,7 +20,7 @@
 
     /* TODO: fix inline  elements padding to be dynamically calculated based on a MIX and MAX number of elements*/
 .inline-portofolio-icon {
-    color: white;
+    color: black;
     padding: 0 1vw 0 1vw;
     height: 30px;
 }
