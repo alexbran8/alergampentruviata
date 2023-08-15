@@ -12,7 +12,7 @@ const STATS_LIST = [
 export const Stats = () => {
   return (
     <div className="stats-container">
-      <div className={`nav__menu-list`}>
+      <div className={`stats-list`}>
         {STATS_LIST.map((item, idx) => (
           <div key={idx}>
             <svg
