@@ -1,16 +1,15 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./index.styling.css";
-import { setGroundSpeed } from "../../utils";
+import { Stats } from "../../components/Stats";
+
 
 export const Home = () => {
 
-useEffect(()=>{
-    setGroundSpeed(570)
-},[])
-
   return (
     <div className="container">
-     
+      <Stats />
+     <p className="header">Povestea noastră. Cum a început totul?</p>
+     <p className="header">Fiecare km alergat e transformat în bani ce se donează cauzelor în care credem ajutând astfel comunitatea</p>
     </div>
   );
 };
