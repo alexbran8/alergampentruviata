@@ -16,7 +16,7 @@
 }
 .stats-item {
   z-index: 100;
-  color: #fffefe;
+  /* color: #fffefe; */
   text-align: center;
   font-family: Myriad Pro;
   font-size: 30px;
