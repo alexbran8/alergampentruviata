@@ -3,10 +3,9 @@
     /* height: 200px; */
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items:center;
     justify-content: space-around;
-    flex-direction: row;
     position:sticky;
     left:0px;
     width: 100%;

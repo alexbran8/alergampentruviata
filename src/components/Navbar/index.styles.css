@@ -57,12 +57,11 @@ nav{
 .nav__item{
   /* text-transform: uppercase; */
   color: black;
-  font-family: 'Unica One';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
+  font-size: 1rem; 
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .center{
