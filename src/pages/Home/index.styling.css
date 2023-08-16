@@ -25,8 +25,8 @@
   border-radius: 360px;
   border: 1px solid #000;
   background: #7b7b7b;
-  width: 441px;
-  height: 98px;
+  width: 25vw;
+  height: 10vh;
   flex-shrink: 0;
   display: grid;
   place-content: center;
