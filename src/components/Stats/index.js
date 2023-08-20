@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.styles.css";
-import data from "../../../stravaData.json"
+import data from "../../stravaData.json"
 
 const STATS_LIST = [
   { key: "runners", text: "Runners" },
