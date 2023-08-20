@@ -1,12 +1,13 @@
 import React from "react";
 import "./index.styles.css";
+import data from "../../stravaData.json"
 
 const STATS_LIST = [
-  { text: "Runners", value: "10" },
-  { text: "Days", value: "700" },
-  { text: "Projects", value: "6" },
-  { text: "Total KM", value: "20000" },
-  { text: "2023 KM", value: "10000" },
+  { key: "runners", text: "Runners" },
+  { key: "totalActiveDays", text: "Days", value: "700" },
+  { key: "2023Projects", text: "Projects", value: "6" },
+  { key: "totalKM", text: "Total KM", value: "20000" },
+  { key: "2023KM", text: "2023 KM", value: "10000" },
 ];
 
 export const Stats = () => {
@@ -38,7 +39,7 @@ export const Stats = () => {
                 fontSize="30"
                 fill="white"
               >
-                {item.value}
+                {data[item.key]}
               </text>
             </svg>
             <div className="stats-subtitle">{item.text}</div>
