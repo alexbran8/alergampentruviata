@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.68a7b4fe.css",
-    "main.js": "/static/js/main.b3bd16e5.js",
+    "main.css": "/static/css/main.e1cf4a63.css",
+    "main.js": "/static/js/main.8bd5bcec.js",
     "static/js/787.faa64d7a.chunk.js": "/static/js/787.faa64d7a.chunk.js",
-    "static/media/Logo512.svg": "/static/media/Logo512.a3691b51fb179a37303b0530446f6b8c.svg",
+    "static/media/logo_alergam_final.png": "/static/media/logo_alergam_final.8ed6b0ed05542314820e.png",
     "static/media/buy_me_coffee_logo_333x148.svg": "/static/media/buy_me_coffee_logo_333x148.80f82c34d0e92ebb657760a179c42c12.svg",
     "static/media/instagram_logo_90x90.svg": "/static/media/instagram_logo_90x90.7786d1180a3c51eab29fb23a5882dee7.svg",
     "static/media/facebook_logo_90x90.svg": "/static/media/facebook_logo_90x90.84b27fdce3a68d260ba67d18982159ba.svg",
     "index.html": "/index.html",
-    "main.68a7b4fe.css.map": "/static/css/main.68a7b4fe.css.map",
-    "main.b3bd16e5.js.map": "/static/js/main.b3bd16e5.js.map",
+    "static/media/markdown.md": "/static/media/markdown.f4a5aca946dbe4b2f7e2.md",
+    "main.e1cf4a63.css.map": "/static/css/main.e1cf4a63.css.map",
+    "main.8bd5bcec.js.map": "/static/js/main.8bd5bcec.js.map",
     "787.faa64d7a.chunk.js.map": "/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68a7b4fe.css",
-    "static/js/main.b3bd16e5.js"
+    "static/css/main.e1cf4a63.css",
+    "static/js/main.8bd5bcec.js"
   ]
 }
