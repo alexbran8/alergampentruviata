@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1cf4a63.css",
-    "main.js": "/static/js/main.8bd5bcec.js",
+    "main.css": "/static/css/main.981f5cc3.css",
+    "main.js": "/static/js/main.280d8016.js",
     "static/js/787.faa64d7a.chunk.js": "/static/js/787.faa64d7a.chunk.js",
     "static/media/logo_alergam_final.png": "/static/media/logo_alergam_final.8ed6b0ed05542314820e.png",
     "static/media/buy_me_coffee_logo_333x148.svg": "/static/media/buy_me_coffee_logo_333x148.80f82c34d0e92ebb657760a179c42c12.svg",
@@ -9,12 +9,12 @@
     "static/media/facebook_logo_90x90.svg": "/static/media/facebook_logo_90x90.84b27fdce3a68d260ba67d18982159ba.svg",
     "index.html": "/index.html",
     "static/media/markdown.md": "/static/media/markdown.f4a5aca946dbe4b2f7e2.md",
-    "main.e1cf4a63.css.map": "/static/css/main.e1cf4a63.css.map",
-    "main.8bd5bcec.js.map": "/static/js/main.8bd5bcec.js.map",
+    "main.981f5cc3.css.map": "/static/css/main.981f5cc3.css.map",
+    "main.280d8016.js.map": "/static/js/main.280d8016.js.map",
     "787.faa64d7a.chunk.js.map": "/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1cf4a63.css",
-    "static/js/main.8bd5bcec.js"
+    "static/css/main.981f5cc3.css",
+    "static/js/main.280d8016.js"
   ]
 }
