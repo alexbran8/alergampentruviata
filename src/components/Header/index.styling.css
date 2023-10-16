@@ -12,15 +12,23 @@
 }
 
 .logo{
-        width: 60%;
+        /* width: 60%; */
         margin: 0 auto;
-        height: auto;
+        height: 200px;
+        width: auto;
+}
+
+.header-text {
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-size: xx-large;
 }
 
 .footer {
     position:fixed;
     /* outline: auto; */
-    width: 100%;
+    /* width: 100%; */
     bottom: 5px;
     display: grid;
     place-items: center;

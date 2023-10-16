@@ -13,7 +13,7 @@ export const Home = () => {
           Fiecare km alergat e transformat în bani ce se donează cauzelor în
           care credem ajutând astfel comunitatea
         </p>
-        <div className="container-2">
+        <div className="join-us-container">
           <div className="pill"><Link to="/join">IMPLICĂ-TE!</Link></div>
           <div>Fii alături de noi!</div>
           <div className="pill"><Link to="/support">SPRIJINĂ-NE!</Link></div>

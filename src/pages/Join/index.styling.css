@@ -1,0 +1,8 @@
+.text-wrapper .alingment {
+    padding: 40px;
+}
+.text-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
