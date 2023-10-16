@@ -10,8 +10,11 @@ import {Buffer} from 'buffer';
 export const Team = () => {
   const [markdownContent, setMarkdownContent] = useState('');
   const [data, setData] = useState('');
+
+  
+
   useEffect(() => {
-    fetch(file)
+    fetch(`${process.env.NODE_ENV ===  "development" ? "" : "static/media/"}${file}`)
       .then((res) => res.text())
       .then(res=> matter(Buffer.from(res)))
       .then(res =>{
