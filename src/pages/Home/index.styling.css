@@ -9,17 +9,19 @@
   padding-top: 20px;
 }
 
-.wrapper {
-  background: rgba(217, 217, 217, 0.1);
+.container {
+  background: rgba(217, 217, 217, 0.3);
   width: 80%;
   margin: 0 auto;
   padding: 40 40 40 40; 
+  border-radius: 90;
 }
 
 .join-us-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .pill {
@@ -60,3 +62,12 @@
 	flex: 2 2 22px;
   }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .pill {
+    height: 7vh;
+    width: 12vh;
+  }
+}
