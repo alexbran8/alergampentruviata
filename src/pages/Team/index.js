@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "./index.styling.css";
 import ReactMarkdown from 'react-markdown';
-import file from "./markdown.md";
+import file from "../../data/markdown.md";
 import matter from 'gray-matter'
 import {Buffer} from 'buffer';
 
