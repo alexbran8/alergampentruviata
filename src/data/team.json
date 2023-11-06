@@ -1,0 +1,16 @@
+[
+    {
+        "firstName": "Alexandru",
+        "lastName": "Beke",
+        "age": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "hobbies": "running, swimming, cycling"
+    },
+    {
+        "firstName": "Alexandru",
+        "lastName": "Bran",
+        "age": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "hobbies": "running, swimming, cycling"
+    }
+]

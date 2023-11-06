@@ -12,10 +12,10 @@
 }
 
 .logo{
-        /* width: 60%; */
+        width: 60%;
         margin: 0 auto;
-        height: 200px;
-        width: auto;
+        /* height: 200px; */
+        /* width: auto; */
 }
 
 .header-text {
@@ -54,4 +54,12 @@
 
 .grid-item-footer h6 {
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+    }
+ 
 }

@@ -1,37 +1,55 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./index.styling.css";
-import ReactMarkdown from 'react-markdown';
-import file from "../../data/markdown.md";
-import matter from 'gray-matter'
-import {Buffer} from 'buffer';
+import data from "../../data/team.json"
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
+
+
+const TeamMember = (props) => {
+  const {firstName, lastName, age, about, hobbies} = props.data
+  return (
+    <Card className='card'>
+      <CardMedia
+        sx={{ height: 140 }}
+        image="/static/images/cards/contemplative-reptile.jpg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {firstName} {lastName}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         {about}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
 
 
 export const Team = () => {
-  const [markdownContent, setMarkdownContent] = useState('');
-  const [data, setData] = useState('');
-
-  
-
-  useEffect(() => {
-    fetch(`${process.env.NODE_ENV ===  "development" ? "" : "static/media/"}${file}`)
-      .then((res) => res.text())
-      .then(res=> matter(Buffer.from(res)))
-      .then(res =>{
-        setData(res.data);  
-      setMarkdownContent(res.content)
-      }
-      );
-  }, []);
-
 
   return (
-    <div className="header">
-      <div>{data.name}, {data.age}, {data.joinDate}, {data.summary}</div>
-      
-      <div className="container">
-     <ReactMarkdown >{markdownContent}</ReactMarkdown>
+     
+      <div className="team-container">
+      {data.map(item=> {
+        return <div>
+           <TeamMember 
+           data={item}/>
+           </div>
+      })
+
+      }      
      </div>
-     </div>
+  
   );
 };

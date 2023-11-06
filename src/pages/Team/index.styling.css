@@ -1,5 +1,11 @@
-.container {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20r, 1fr));
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+}
+
+.card {
+    width: 20rem;
 }
