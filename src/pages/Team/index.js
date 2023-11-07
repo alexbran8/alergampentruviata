@@ -24,7 +24,7 @@ const TeamMember = (props) => {
           {firstName} {lastName}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         {about}
+         {about} {age} {hobbies}
         </Typography>
       </CardContent>
       <CardActions>
