@@ -1,0 +1,13 @@
+.team-container {
+    display: grid;
+    margin: auto;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 20px;
+    padding: 5em;
+}
+
+.card {
+    width: 
+    30rem;
+}

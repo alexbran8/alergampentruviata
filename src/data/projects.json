@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Rares si Ivan",
+        "scope": "",
+        "target": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "photo":"",
+        "owner": "Ella",
+        "start":"2020" ,
+        "end": null,    
+        "progress": 30,
+        "total": "300",
+        "tags":["#invingatori", "#oriceSePoate"]
+    },
+    {
+        "name": "Spitalul de copii Louis Turcanu",
+        "scope": "Beke",
+        "target": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "photo":"",
+        "owner": "Alexandru Beke",
+        "start":"2023" ,
+        "end":null,
+        "progress": 30,
+        "total": "300",
+        "tags":["#pentruCeiMici", "#siEiAuNevoie", "#oMicaSansa"]
+    },
+    {
+        "name": "Help trend",
+        "scope": "Beke",
+        "target": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "photo":"",
+        "owner": "Alexandru Bran",
+        "start":"2021" ,
+        "end":"2023" ,
+        "progress": 30,
+        "total": "300",
+        "tags":["#facemBine", "#pentruComunitate", "#contribuieSiTu"]
+    }
+]
