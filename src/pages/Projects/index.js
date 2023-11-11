@@ -20,7 +20,6 @@ const Project = (props) => {
     about,
     hobbies,
     photo,
-    owner,
     progress,
     total,
     tags
