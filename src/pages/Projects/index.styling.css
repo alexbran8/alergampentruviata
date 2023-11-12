@@ -1,9 +1,9 @@
-.team-container {
+.projects-container {
     display: grid;
     margin: auto;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 20px;
+    gap:1em;
     padding: 5em;
 }
 

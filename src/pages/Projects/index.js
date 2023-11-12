@@ -63,7 +63,7 @@ const Project = (props) => {
 
 export const Projects = () => {
   return (
-    <div className="team-container">
+    <div className="projects-container">
       {data.map((item) => {
         return (
           <div>
