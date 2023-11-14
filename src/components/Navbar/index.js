@@ -42,7 +42,7 @@ export const Navbar = () => {
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
-            <div
+            <div 
               onClick={() => {
                 setActiveIdx(idx);
                 setNavActive(false);

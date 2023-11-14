@@ -40,7 +40,7 @@ const Project = (props) => {
         <Typography variant="body2" color="text.secondary">
           {about}  {hobbies}
         </Typography>
-        {tags?.map(tag=> <Chip label={tag} />)}
+        {tags?.map((tag)=> <Chip key={`${tag}-${name}`} label={tag} />)}
         
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
@@ -64,10 +64,10 @@ const Project = (props) => {
 export const Projects = () => {
   return (
     <div className="projects-container">
-      {data.map((item) => {
+      {data.map((item, index) => {
         return (
           <div>
-            <Project data={item} />
+            <Project key={`${item.name}-${index}`} data={item} />
           </div>
         );
       })}

@@ -45,7 +45,7 @@ const TeamMember = (props) => {
         <Typography variant="body2" color="text.secondary">
           {about} {age} {hobbies}
         </Typography>
-        {tags?.map(tag=> <Chip label={tag} />)}
+        {tags?.map(tag=> <Chip key={tag} label={tag} />)}
         
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
@@ -69,10 +69,10 @@ const TeamMember = (props) => {
 export const Team = () => {
   return (
     <div className="team-container">
-      {data.map((item) => {
+      {data.map((item, index) => {
         return (
           <div>
-            <TeamMember data={item} />
+            <TeamMember key={`${item.firstName}-${index}`}  data={item} />
           </div>
         );
       })}
