@@ -29,7 +29,7 @@ const TeamMember = (props) => {
   return (
     <Card className="card">
       <CardMedia
-        sx={{ height: 200 }}
+        sx={{ height: 400 }}
         image={photo!== "" ? require(`../../assets/team/${photo}`):null}
         title="green iguana"
       />
