@@ -4,7 +4,7 @@ import data from "../../stravaData.json"
 
 const STATS_LIST = [
   { key: "runners", text: "Runners" },
-  { key: "totalActiveDays", text: "Days", value: "700" },
+  // { key: "totalActiveDays", text: "Days", value: "700" },
   { key: "2023Projects", text: "Projects", value: "6" },
   { key: "totalKM", text: "Total KM", value: "20000" },
   { key: "2023KM", text: "2023 KM", value: "10000" },
