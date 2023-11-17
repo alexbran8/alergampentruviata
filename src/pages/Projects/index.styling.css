@@ -1,13 +1,21 @@
 .projects-container {
     display: grid;
-    margin: auto;
+    margin:  auto;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1em;
-    padding: 5em;
+    gap:1em
 }
 
-.card {
-    width: 
-    30rem;
+.projects-container  .card {
+    /* width: 70vw; */
 }
+
+@media screen and (max-width: 768px) {
+    .projects-container {
+        grid-template-columns:1fr
+    }
+
+    .projects-container  .card {
+        width: 90vw;
+    }
+  }

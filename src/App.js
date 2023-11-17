@@ -19,7 +19,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/join" element={<Join />} />
           <Route path="/support" element={<Support />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/cauze" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>

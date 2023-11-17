@@ -22,7 +22,9 @@
     font-family: Myriad Pro;
     text-transform: uppercase;
     font-weight: 750;
-    font-size: xx-large;
+    margin: auto;
+    text-align: center;
+    /* font-size: xx-large; */
 }
 
 .footer {

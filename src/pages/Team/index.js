@@ -42,17 +42,17 @@ const TeamMember = (props) => {
           {firstName} {lastName}
         </Typography> */}
     
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           {about} {age} {hobbies}
         </Typography>
         {tags?.map(tag=> <Chip key={tag} label={tag} />)}
         
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-      <Box sx={{ width: '100%', mr: 1 }}>
+      <Box sx={{ width: '100%'}}>
         <LinearProgressWithLabel variant="determinate" value={progress} />
       </Box>
-        <Box sx={{ minWidth: 35 }}>
-          <Typography variant="body2" color="text.secondary">{`${Math.round(
+        <Box>
+          <Typography variant="body" color="text.secondary">{`${Math.round(
             total,
           )}km`}</Typography>
         </Box>
@@ -68,14 +68,18 @@ const TeamMember = (props) => {
 
 export const Team = () => {
   return (
+    <div>
+      <p className="subtitle">Am crescut de la an la an si am ajuns sa fim urmatorii alergatori de fapte bune. Fiecare dintre noi si-a asumat ca va contribui cat de mult va putea pentru fiecare cauza, motivatie pentru a strange cat mai multi km in fiecare luna.</p>
+
     <div className="team-container">
-      {data.map((item, index) => {
+      {data.map((item) => {
         return (
           <div>
             <TeamMember key={`${item.firstName}-${index}`}  data={item} />
           </div>
         );
       })}
+    </div>
     </div>
   );
 };

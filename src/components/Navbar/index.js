@@ -5,7 +5,7 @@ import "./index.styles.css"
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "Team", href: "/team" },
-  { text: "Proiecte", href: "/projects" },
+  { text: "Cauze", href: "/cauze" },
   { text: "Contact", href: "/contact" }
 ];
 
