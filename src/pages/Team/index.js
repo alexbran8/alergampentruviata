@@ -45,8 +45,9 @@ const TeamMember = (props) => {
         <Typography variant="body" color="text.secondary">
           {about} {age} {hobbies}
         </Typography>
+        <Box>
         {tags?.map(tag=> <Chip key={tag} label={tag} />)}
-        
+        </Box>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%'}}>
         <LinearProgressWithLabel variant="determinate" value={progress} />
@@ -69,10 +70,11 @@ const TeamMember = (props) => {
 export const Team = () => {
   return (
     <div>
+      <Box>
       <p className="subtitle">Am crescut de la an la an si am ajuns sa fim urmatorii alergatori de fapte bune. Fiecare dintre noi si-a asumat ca va contribui cat de mult va putea pentru fiecare cauza, motivatie pentru a strange cat mai multi km in fiecare luna.</p>
-
+      </Box>
     <div className="team-container">
-      {data.map((item) => {
+      {data.map((item, index) => {
         return (
           <div>
             <TeamMember key={`${item.firstName}-${index}`}  data={item} />

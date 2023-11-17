@@ -2,7 +2,7 @@
     display: grid;
     margin: auto;
     place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-template-columns:1fr;
     gap:1em;
     /* padding: 5px; */
 }
@@ -20,10 +20,14 @@
     text-indent: 2rem;
     font-weight: 400;
     font-size: 1rem;
-    /* width: 50% */
+    width: 60%;
+    padding: 40px
 }
 
 @media screen and (max-width: 768px) {
+    .subtitle {
+        width: 90%;
+    }
     .team-container  .card {
         width: 90vw;
     }

@@ -3,7 +3,9 @@
     margin:  auto;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1em
+    gap:1em;
+    padding: 50px
+
 }
 
 .projects-container  .card {
@@ -12,7 +14,8 @@
 
 @media screen and (max-width: 768px) {
     .projects-container {
-        grid-template-columns:1fr
+        grid-template-columns:1fr;
+        padding: 0px;
     }
 
     .projects-container  .card {
