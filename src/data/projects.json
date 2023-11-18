@@ -47,8 +47,8 @@
         "owner": "Alexandru Bran",
         "start":"2021" ,
         "end":"2023" ,
-        "progress": 30,
-        "total": "300",
+        "progress": 100,
+        "total": "1000",
         "tags":["#facemBine", "#pentruComunitate", "#contribuieSiTu"]
     }
 ]
