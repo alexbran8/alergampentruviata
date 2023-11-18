@@ -1,12 +1,9 @@
 .header-container {
-    /* outline: 1px solid red; */
-    /* height: 200px; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items:center;
     justify-content: center;
-    /* justify-content: space-around; */
     position:sticky;
     left:0px;
 }
@@ -14,8 +11,6 @@
 .logo{
         width: 60%;
         margin: 0 auto;
-        /* height: 200px; */
-        /* width: auto; */
 }
 
 .header-text {
@@ -24,7 +19,7 @@
     font-weight: 750;
     margin: auto;
     text-align: center;
-    /* font-size: xx-large; */
+    padding: 2%;
 }
 
 .footer {
