@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: create env file
+      run: |
+        touch .env
     - uses: actions/checkout@v2
     - run: npm i
     - run: npm run build
