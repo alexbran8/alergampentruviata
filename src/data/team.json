@@ -88,8 +88,8 @@
         "total": "300"
     },
     {
-        "firstName": "Monica",
-        "lastName": "Confederat",
+        "firstName": "Lavinia",
+        "lastName": "",
         "age": "35",
         "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
         "hobbies": "running",
@@ -97,5 +97,28 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "total": "300"
+    },
+    {
+        "firstName": "Carmen",
+        "lastName": "Gudiu",
+        "age": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "hobbies": "running",
+        "photo": "",
+        "memberSince":"12/01/2023" ,
+        "progress": 30,
+        "total": "300"
+    },
+    {
+        "firstName": "Lucian",
+        "lastName": "Gudiu",
+        "age": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "hobbies": "running",
+        "photo": "",
+        "memberSince":"12/01/2023" ,
+        "progress": 30,
+        "total": "300"
     }
+
 ]

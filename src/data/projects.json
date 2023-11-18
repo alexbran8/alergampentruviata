@@ -39,6 +39,19 @@
         "tags":["#pentruCeiMici", "#siEiAuNevoie", "#oMicaSansa"]
     },
     {
+        "name": "Fundatia Estera",
+        "scope": "Beke",
+        "target": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "photo":"",
+        "owner": "Alexandru Beke",
+        "start":"2020" ,
+        "end":"2023" ,
+        "progress": 100,
+        "total": "1000",
+        "tags":["#facemBine", "#pentruComunitate", "#contribuieSiTu"]
+    },
+    {
         "name": "Help trend",
         "scope": "Beke",
         "target": "35",
