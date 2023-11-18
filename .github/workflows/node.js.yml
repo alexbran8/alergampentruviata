@@ -12,6 +12,8 @@ on:
 jobs:
   build:
 
+
+
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,6 +22,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - name: create env file
+      run: |
+        touch .env
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
