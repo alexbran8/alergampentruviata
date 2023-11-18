@@ -25,7 +25,8 @@ export  const Contact = () => {
         alignItems: "center",
         justifyContent: "center",
         marginBottom: "5%",
-        marginTop: "2%"
+        marginTop: "5%",
+        height: "80%"
       }}
     >
       <Box
