@@ -28,8 +28,8 @@ const Project = (props) => {
   return (
     <Card className="card">
       <CardMedia
-        sx={{ height: 200 }}
-        image={photo!== "" ? require(`../../assets/team/${photo}`):null}
+        sx={{ height: 400 }}
+        image={photo!== "" ? require(`../../assets/projects/${photo}`):null}
         title="green iguana"
       />
       <CardHeader
@@ -37,7 +37,7 @@ const Project = (props) => {
         subheader={`${start} - ${end ?? "on going" }` }
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" className="max-lines">
           {about}  {hobbies}
         </Typography>
         {tags?.map((tag)=> <Chip key={`${tag}-${name}`} label={tag} />)}
@@ -54,7 +54,7 @@ const Project = (props) => {
     </Box>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
+        {/* <Button size="small">Share</Button> */}
         {/* <Button size="small">Learn More</Button> */}
       </CardActions>
     </Card>
