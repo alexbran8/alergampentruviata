@@ -4,8 +4,8 @@
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1em;
-    padding: 50px
-
+    padding: 50px;
+    margin-bottom: 1%;
 }
 
 .max-lines {
@@ -26,6 +26,7 @@
     .projects-container {
         grid-template-columns:1fr;
         padding: 0px;
+        margin-bottom: 10%;
     }
 
     .projects-container  .card {
