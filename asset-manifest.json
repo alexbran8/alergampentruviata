@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e6ea2c1.css",
-    "main.js": "/static/js/main.0c0dd434.js",
+    "main.css": "/static/css/main.a4973451.css",
+    "main.js": "/static/js/main.64ea272c.js",
     "static/js/787.faa64d7a.chunk.js": "/static/js/787.faa64d7a.chunk.js",
     "static/media/logo_alergam_final.png": "/static/media/logo_alergam_final.8ed6b0ed05542314820e.png",
+    "static/media/rares-ivan.jpeg": "/static/media/rares-ivan.3c8ef3b6aaf458208cfe.jpeg",
+    "static/media/help-trend.jpeg": "/static/media/help-trend.7e0794121483724113ea.jpeg",
+    "static/media/dumbrava-pasca.jpeg": "/static/media/dumbrava-pasca.9b270ffa2e051ffbb306.jpeg",
     "static/media/alexandru_bran.JPEG": "/static/media/alexandru_bran.d67f79020e74be5aa462.JPEG",
     "static/media/buy_me_coffee_logo_333x148.svg": "/static/media/buy_me_coffee_logo_333x148.80f82c34d0e92ebb657760a179c42c12.svg",
     "static/media/instagram_logo_90x90.svg": "/static/media/instagram_logo_90x90.7786d1180a3c51eab29fb23a5882dee7.svg",
     "static/media/facebook_logo_90x90.svg": "/static/media/facebook_logo_90x90.84b27fdce3a68d260ba67d18982159ba.svg",
     "index.html": "/index.html",
-    "main.2e6ea2c1.css.map": "/static/css/main.2e6ea2c1.css.map",
-    "main.0c0dd434.js.map": "/static/js/main.0c0dd434.js.map",
+    "main.a4973451.css.map": "/static/css/main.a4973451.css.map",
+    "main.64ea272c.js.map": "/static/js/main.64ea272c.js.map",
     "787.faa64d7a.chunk.js.map": "/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6ea2c1.css",
-    "static/js/main.0c0dd434.js"
+    "static/css/main.a4973451.css",
+    "static/js/main.64ea272c.js"
   ]
 }
