@@ -9,9 +9,10 @@ export  const Contact = () => {
    
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
   
-    emailjs.sendForm(process.env.EMAIL_SERVICE_ID, process.env.EMAIL_TEMPLATE_ID, form.current, process.env.EMAIL_API_KEY)
+    emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAIL_API_KEY)
       .then((result) => {
           // show the user a success message
+          form.current.reset()
       }, (error) => {
           // show the user an error
           console.log(error)
