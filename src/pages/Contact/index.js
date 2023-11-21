@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./index.styling.css";
-import { TextField, Button, Typography, Box } from "@mui/material";
+import { TextField, Button, Typography, Box,FormHelperText } from "@mui/material";
 import emailjs from '@emailjs/browser';
 
 export  const Contact = () => {
   const form = useRef();
+  const [status, setStatus] = useState("")
   const handleSubmit = (e) => {
+    
    
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
   
@@ -13,9 +15,10 @@ export  const Contact = () => {
       .then((result) => {
           // show the user a success message
           form.current.reset()
+          setStatus('success')
       }, (error) => {
           // show the user an error
-          console.log(error)
+          setStatus('error')
       });
   };
 
@@ -26,7 +29,7 @@ export  const Contact = () => {
         alignItems: "center",
         justifyContent: "center",
         marginBottom: "5%",
-        marginTop: "5%",
+        marginTop: "1%",
         height: "80%"
       }}
     >
@@ -38,7 +41,6 @@ export  const Contact = () => {
           maxWidth: 600,
           mx: "auto",
           p: 2,
-          boxShadow: 2,
         }}
       >
         <Typography variant="h4" align="center" mb={2}>
@@ -49,7 +51,7 @@ export  const Contact = () => {
           <TextField
             fullWidth
             name="name"
-            label="Name"
+            label="Nume"
             margin="normal"
             required
           />
@@ -63,7 +65,7 @@ export  const Contact = () => {
           />
           <TextField
             fullWidth
-            label="Message"
+            label="Mesaj"
             name="message"
             margin="normal"
             required
@@ -82,9 +84,11 @@ export  const Contact = () => {
               },
             }}
           >
-            Submit
+            Trimite
           </Button>
         </form>
+        {status === "success" &&<FormHelperText>Multumim pentru mesaj. Vom incerca sa raspundem in cel mai scurt timp posibil.</FormHelperText>}
+          {status === "error" &&<FormHelperText error={true}>Te rugam sa mai incerci mai tarziu, sau sa ne contactezi direct pe adresa noastra de <a href="mailto:alergampentruviata@gmail.com">email</a>.</FormHelperText>}
       </Box>
     </Box>
   );
