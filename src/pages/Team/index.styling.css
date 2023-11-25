@@ -9,19 +9,14 @@
 
 .team-container .card {
     width: 40vw;
-    /* minWidth: 100, */
     margin: "3rem";
-    /* width: 10rem; */
-    /* outline: 2px solid red; */
 }
 
 .subtitle {
     margin: auto;
-    text-indent: 2rem;
     font-weight: 400;
     font-size: calc(0.7em + 1vw);
     width: 60%;
-    /* padding: 40px */
     text-align: justify;
     text-justify: inter-word;
 

@@ -1,29 +1,21 @@
-
-
-.container p {
-  text-indent: 3rem;
-  text-align: justify;
-}
-
-.container {
-  background: rgba(217, 217, 217, 0.3);
-  width: 65%;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 30px;
-  margin-bottom: 5rem;
-  padding: 0 40 40 0; 
-  border-radius: 90;
-}
-
 .header {
   overflow: hidden;
   color: #000;
-  text-align: center !important;
+  text-align: center;
   text-overflow: ellipsis;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 20px;
+}
+
+.container {
+  background: rgba(217, 217, 217, 0.3);
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  padding: 40 40 40 40; 
+  border-radius: 90;
 }
 
 .join-us-container {
@@ -50,10 +42,6 @@
   text-decoration-line: underline;
   text-transform: capitalize;
 }
-.text-center{
-  text-align: center;
-}
-
 
 .photo-container {
 	display: flex;
@@ -78,14 +66,9 @@
 @media screen and (max-width: 768px) {
   .container {
     width: 95%;
-    padding: 1%;
-  }
-  .container p {
-    text-indent: 0px;
   }
   .pill {
     height: 7vh;
     width: 12vh;
   }
 }
-
