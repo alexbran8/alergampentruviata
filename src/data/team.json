@@ -3,44 +3,48 @@
         "firstName": "Alexandru",
         "lastName": "Beke",
         "age": "35",
-        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "about": "Anul viitor, visez la 3000 km alergati / 3000 km pedalati / 100km inotati. Sunt sanse sa nu reusesc dar… țintesc sus si vad unde finalizez 2024 🙂 Tot anul viitor, imi doresc sa alerg si sa fac miscare in tricou “Alergam pentru viata”. Turele de miscare la care vreau sa particip (alergare/bicicleta/triathlon), mi-ar placea sa le parcurg cu un tricou “Alergam pentru viata” prin care sa promovez ideea de a incerca sa fiu un ajutor pentru cei din jur",
         "photo":"",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300",
+        "ytdKm": 2000,
+        "total": 3000,
         "tags":["run", "swim", "cycling"]
     },
     {
         "firstName": "Cristina",
         "lastName": "Beke",
         "age": "35",
-        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "about": "Pt 2024 am urmatoarea tinta: sa dublez nr de km alergati in acest an (adica sa alerg 2000km, sa pot alerga si sa tin un pace de 4.4 min/km pe o distanta de 21km, sa pot tine un pace de 4 min/km pe o distanta de 10km, sa ma calific la concursurile la care ma inscriu, in primii 3 la Open.",
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300",
+        "ytdKm": 2000,
+        "total": 300,
         "tags":["run", "swim", "cycling"]
     },
     {
         "firstName": "Ella",
         "lastName": "",
         "age": "35",
-        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "about": "Eu as vrea sa reusesc sa alerg un maraton intr-un timp bun - practic ce am vrut pentru anul asta si nu am reusit, cel putin o vizita pe an la spitalul din Buzias unde sa las o suma de bani si vreau sa continui sa alerg pentru Ivan si Rares, dar nu voi mai dona lunar ci o suma pe an.",
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300",
+        "ytdKm": 2000,
+        "total": 300,
         "tags":["run", "swim", "cycling", "ski"]
     },
     {
         "firstName": "Alexandru",
         "lastName": "Bran",
         "age": "35",
-        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "about": "Next year sper sa pot sa ating target-urile pe care le aveam anul acesta (depinde cat de lunga va fi iarna :)) ):10.000 km pedalati, 500 km alergare, 100 km innot. In 2024 as vrea sa particip la un semimaraton montan (daca reusesc sa ma pregatesc) si in 2025 la un stage race in 🇪🇸",
         "photo": "alexandru_bran.JPEG",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 2000,
+        "total": 300
     },
  
     {
@@ -52,7 +56,8 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm":0,
+        "total": 300
     },
     {
         "firstName": "Levi",
@@ -63,7 +68,8 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 2000,
+        "total": 300
     },
     {
         "firstName": "Alina",
@@ -74,7 +80,8 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 0,
+        "total": 300
     },
     {
         "firstName": "Fabian",
@@ -85,7 +92,20 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 0,
+        "total": 0
+    },
+    {
+        "firstName": "Monica",
+        "lastName": "Confederat",
+        "age": "35",
+        "about": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "hobbies": "running",
+        "photo": "",
+        "memberSince":"12/01/2020" ,
+        "progress": 30,
+        "ytdKm": 2000,
+        "total": 300
     },
     {
         "firstName": "Lavinia",
@@ -96,7 +116,8 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 0,
+        "total": 0
     },
     {
         "firstName": "Carmen",
@@ -107,7 +128,8 @@
         "photo": "",
         "memberSince":"12/01/2023" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 0,
+        "total": 0
     },
     {
         "firstName": "Lucian",
@@ -118,7 +140,8 @@
         "photo": "",
         "memberSince":"12/01/2023" ,
         "progress": 30,
-        "total": "300"
+        "ytdKm": 0,
+        "total": 0
     }
 
 ]

@@ -38,14 +38,10 @@ const TeamMember = (props) => {
         subheader={`joined: ${memberSince}`}
       />
       <CardContent>
-        {/* <Typography gutterBottom variant="h5" component="div">
-          {firstName} {lastName}
-        </Typography> */}
-    
         <Typography variant="body" color="text.secondary">
-          {about} {age} {hobbies}
+          {about}  {hobbies}
         </Typography>
-        <Box>
+        <Box paddingTop={1}>
         {tags?.map(tag=> <Chip key={tag} label={tag} />)}
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>

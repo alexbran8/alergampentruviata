@@ -1,13 +1,16 @@
 import React from "react";
 import "./index.styles.css";
-import data from "../../stravaData.json"
+
+import teamData from "../../data/team.json";
+import projectsData from "../../data/projects.json";
+
+
 
 const STATS_LIST = [
-  { key: "runners", text: "Runners" },
-  // { key: "totalActiveDays", text: "Days", value: "700" },
-  { key: "2023Projects", text: "Projects", value: "6" },
-  { key: "totalKM", text: "Total KM", value: "20000" },
-  { key: "2023KM", text: "2023 KM", value: "10000" },
+  { key: "runners", text: "Runners", value:teamData.length },
+  { key: "2023Projects", text: "Projects", value: projectsData.length },
+  { key: "2023KM", text: "2023 KM", value:  teamData.reduce((acc,cur)=> acc + cur.total,0)  },
+  { key: "totalKM", text: "Total KM", value: teamData.reduce((acc,cur)=> acc + cur.ytdKm,0)}
 ];
 
 export const Stats = () => {
@@ -39,7 +42,7 @@ export const Stats = () => {
                 fontSize="30"
                 fill="white"
               >
-                {data[item.key]}
+                {item.value}
               </text>
             </svg>
             <div className="stats-subtitle">{item.text}</div>
