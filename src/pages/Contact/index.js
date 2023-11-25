@@ -28,7 +28,7 @@ export  const Contact = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        marginBottom: "5%",
+        marginBottom: "10%",
         marginTop: "1%",
         height: "80%"
       }}
