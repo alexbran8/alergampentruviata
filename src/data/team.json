@@ -7,8 +7,9 @@
         "photo":"",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "ytdKm": 2000,
-        "total": 3000,
+        "ytdKm": 0,
+        "ytdTarget": 6100,
+        "totalKm": 2000,
         "tags":["run", "swim", "cycling"]
     },
     {
@@ -19,8 +20,9 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "ytdKm": 2000,
-        "total": 300,
+        "ytdKm": 0,
+        "total": 2000,
+        "totalKm": 1000,
         "tags":["run", "swim", "cycling"]
     },
     {
@@ -31,8 +33,9 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "ytdKm": 2000,
-        "total": 300,
+        "ytdKm": 0,
+        "ytdTarget": 10600,
+        "totalKm": 2000,
         "tags":["run", "swim", "cycling", "ski"]
     },
     {
@@ -44,7 +47,8 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "ytdKm": 2000,
-        "total": 300
+        "ytdTarget": 300,
+        "totalKm": 20000
     },
  
     {
@@ -57,7 +61,8 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "ytdKm":0,
-        "total": 300
+        "ytdTarget": 0,
+        "totalKm":0
     },
     {
         "firstName": "Levi",
@@ -68,8 +73,9 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "ytdKm": 2000,
-        "total": 300
+        "ytdKm": 0,
+        "ytdTarget": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Alina",
@@ -81,7 +87,8 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "ytdKm": 0,
-        "total": 300
+        "total": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Fabian",
@@ -93,7 +100,8 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "ytdKm": 0,
-        "total": 0
+        "ytdTarget": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Monica",
@@ -104,8 +112,9 @@
         "photo": "",
         "memberSince":"12/01/2020" ,
         "progress": 30,
-        "ytdKm": 2000,
-        "total": 300
+        "ytdKm": 0,
+        "total": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Lavinia",
@@ -117,7 +126,8 @@
         "memberSince":"12/01/2020" ,
         "progress": 30,
         "ytdKm": 0,
-        "total": 0
+        "ytdTarget": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Carmen",
@@ -129,7 +139,8 @@
         "memberSince":"12/01/2023" ,
         "progress": 30,
         "ytdKm": 0,
-        "total": 0
+        "ytdTarget": 0,
+        "totalKm": 0
     },
     {
         "firstName": "Lucian",
@@ -141,7 +152,8 @@
         "memberSince":"12/01/2023" ,
         "progress": 30,
         "ytdKm": 0,
-        "total": 0
+        "ytdTarget": 0,
+        "totalKm": 0
     }
 
 ]

@@ -16,7 +16,6 @@ const TeamMember = (props) => {
   const {
     firstName,
     lastName,
-    age,
     about,
     hobbies,
     photo,
@@ -28,7 +27,7 @@ const TeamMember = (props) => {
 
   return (
     <Card className="card">
-      <CardMedia
+      <CardMedia  
         sx={{ height: 400 }}
         image={photo!== "" ? require(`../../assets/team/${photo}`):null}
         title="green iguana"
@@ -42,7 +41,7 @@ const TeamMember = (props) => {
           {about}  {hobbies}
         </Typography>
         <Box paddingTop={1}>
-        {tags?.map(tag=> <Chip key={tag} label={tag} />)}
+        {tags?.map(tag=> <Chip  key={`${firstName}-${lastName}-${tag}`}  label={tag} />)}
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <Box sx={{ width: '100%'}}>
@@ -73,7 +72,7 @@ export const Team = () => {
       {data.map((item, index) => {
         return (
           <div>
-            <TeamMember key={`${item.firstName}-${index}`}  data={item} />
+            <TeamMember key={`${item.firstName}-${item.lastName}-${index}`}  data={item} />
           </div>
         );
       })}
