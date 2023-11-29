@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2fe8996.css",
-    "main.js": "/static/js/main.654ce623.js",
+    "main.js": "/static/js/main.0118c4fe.js",
     "static/js/787.faa64d7a.chunk.js": "/static/js/787.faa64d7a.chunk.js",
     "static/media/logo_alergam_final.png": "/static/media/logo_alergam_final.8ed6b0ed05542314820e.png",
     "static/media/rares-ivan.jpeg": "/static/media/rares-ivan.3c8ef3b6aaf458208cfe.jpeg",
@@ -13,11 +13,11 @@
     "static/media/facebook_logo_90x90.svg": "/static/media/facebook_logo_90x90.84b27fdce3a68d260ba67d18982159ba.svg",
     "index.html": "/index.html",
     "main.a2fe8996.css.map": "/static/css/main.a2fe8996.css.map",
-    "main.654ce623.js.map": "/static/js/main.654ce623.js.map",
+    "main.0118c4fe.js.map": "/static/js/main.0118c4fe.js.map",
     "787.faa64d7a.chunk.js.map": "/static/js/787.faa64d7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2fe8996.css",
-    "static/js/main.654ce623.js"
+    "static/js/main.0118c4fe.js"
   ]
 }
