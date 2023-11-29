@@ -8,8 +8,8 @@ import projectsData from "../../data/projects.json";
 
 const STATS_LIST = [
   { key: "runners", text: "Runners", value:teamData.length },
-  { key: "2023Projects", text: "Projects", value: projectsData.length },
-  { key: "2023KM", text: "2023 KM", value:  teamData.reduce((acc,cur)=> acc + cur.ytdKm,0)  },
+  { key: "Projects", text: "Projects", value: projectsData.length },
+  { key: "2024KM", text: "2024 KM", value:  teamData.reduce((acc,cur)=> acc + cur.ytdKm,0)  },
   { key: "totalKM", text: "Total KM", value: teamData.reduce((acc,cur)=> acc + cur.totalKm,0)}
 ];
 

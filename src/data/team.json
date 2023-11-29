@@ -9,8 +9,10 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 6100,
+        "total": 2000,
         "totalKm": 2000,
-        "tags":["run", "swim", "cycling"]
+        "tags":["run", "swim", "cycling"],
+        "isActive": true
     },
     {
         "firstName": "Cristina",
@@ -23,7 +25,8 @@
         "ytdKm": 0,
         "total": 2000,
         "totalKm": 1000,
-        "tags":["run", "swim", "cycling"]
+        "tags":["run", "swim", "cycling"],
+        "isActive": true
     },
     {
         "firstName": "Ella",
@@ -35,8 +38,10 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 10600,
+        "total": 2000,
         "totalKm": 2000,
-        "tags":["run", "swim", "cycling", "ski"]
+        "tags":["run", "swim", "cycling", "ski"],
+        "isActive": true
     },
     {
         "firstName": "Alexandru",
@@ -48,7 +53,9 @@
         "progress": 30,
         "ytdKm": 2000,
         "ytdTarget": 300,
-        "totalKm": 20000
+        "total": 2000,
+        "totalKm": 20000,
+        "isActive": true
     },
  
     {
@@ -62,7 +69,9 @@
         "progress": 30,
         "ytdKm":0,
         "ytdTarget": 0,
-        "totalKm":0
+        "total": 0,
+        "totalKm":0,
+        "isActive": false
     },
     {
         "firstName": "Levi",
@@ -75,7 +84,9 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 0,
-        "totalKm": 0
+        "total": 0,
+        "totalKm": 0,
+        "isActive": false
     },
     {
         "firstName": "Alina",
@@ -101,7 +112,8 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 0,
-        "totalKm": 0
+        "totalKm": 0,
+        "isActive": false
     },
     {
         "firstName": "Monica",
@@ -127,7 +139,8 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 0,
-        "totalKm": 0
+        "totalKm": 0,
+        "isActive": false
     },
     {
         "firstName": "Carmen",
@@ -140,7 +153,8 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 0,
-        "totalKm": 0
+        "totalKm": 0,
+        "isActive": false
     },
     {
         "firstName": "Lucian",
@@ -153,7 +167,8 @@
         "progress": 30,
         "ytdKm": 0,
         "ytdTarget": 0,
-        "totalKm": 0
+        "totalKm": 0,
+        "isActive": false
     }
 
 ]

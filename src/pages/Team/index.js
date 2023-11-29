@@ -69,7 +69,7 @@ export const Team = () => {
       <p className="subtitle">Am crescut de la an la an si am ajuns sa fim urmatorii alergatori de fapte bune. Fiecare dintre noi si-a asumat ca va contribui cat de mult va putea pentru fiecare cauza, motivatie pentru a strange cat mai multi km in fiecare luna.</p>
       </Box>
     <div className="team-container">
-      {data.map((item, index) => {
+      {data.filter(item=> item.isActive).map((item, index) => {
         return (
           <div>
             <TeamMember key={`${item.firstName}-${item.lastName}-${index}`}  data={item} />
